@@ -1,147 +1,175 @@
 #
-# Be aware that even a small syntax error here can lead to failures in output. 
+# Be aware that even a small syntax error here can lead to failures in output.
 #
 
 sidebar:
-    # Site Settings
-    title: My Resume
-    url: 'http://webjeda.com'
-    about: true # set to False or comment line if you want to remove the "How to use?" in the sidebar
-    
-    # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-    
-    # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
-    twitter: '@webjeda'
+  # Site Settings
+  title: Senior NodeJS Backend Developer
+  url: 'http://webjeda.com'
+  about: false # set to False or comment line if you want to remove the "How to use?" in the sidebar
 
-    languages:
-        - language:
-          idiom: English
-          level: Native
-        - language:
-          idiom: French
-          level: Professional
-        - language:
-          idiom: Spanish
-          level: Professional
-        
-    interests:
-        - interest:
-          item: Climbing
-          link:
-        - interest:
-          item: Snowboarding
-          link:
-        - interest:
-          item: Cooking
-          link:
+  # Profile information
+  name: Sacha Clerc-Renaud
+  tagline: Full Stack Developer
+  pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-        
+  # Sidebar links
+  email: sachacr@protonmail.com
+  phone: 06 13 19 14 60
+  website: blog.webjeda.com #do not add http://
+  linkedin: SachaCR
+  github: SachaCR
+  twitter: '@sasqwach'
 
+  languages:
+    - language:
+      idiom: English
+      level: Professional
+    - language:
+      idiom: French
+      level: Native
 
+  interests:
+    - interest:
+      item: Guitar
+      link:
+    - interest:
+      item: Karate
+      link:
+    - interest:
+      item: Video Games
+      link:
 
+career-profile:
+  title: Career Profile
+  text: 'Developer since 2011. I have worked for some company like : Frichti, TF1, Chauffeur Privé, Sport Heroes Group.'
 
-career-profile: 
-    title: Career Profile
-    text: 'Summarise your career here lorem ipsum dolor sit amet, consectetuer adipiscing elit.You can <a href="#" target="_blank">download this free resume/CV template here</a>. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.'
+experiences:
+  - experience:
+    company: Frichti
+    time: Jun 2017
+    role: Senior NodeJS backend developer
+    details: "WMS
+    Auto-cut
+    Tracking V1 & V2
+    Minimum de commande
+    Base produits
+    Duplications commande
+    Racks Preptask
+    Outils Formules
+    Subscriptions / coupons / stripe
+    Free-Meals
+    Package Open source, koajv, koa-http-log, koa-router-map, koa-route-version
+    Management Stagiaire
+    Montée étages
+    Migration foodids
+    Recipe
+    Frigocool
+    Organisation d’un meetup NodeJS
+    Dispatch automatique foodops"
+    technologies: NodeJS, Koa 2, PostgresSQL, Kubernetes, ELK, RabbitMQ, Redis, React/Redux
 
+  - experience:
+    company: Sport Heroes Group
+    time: Sep 2015 - Jun 2017
+    role: API Manager, NodeJS Lead Developer
+    details: "Refactorisation de l'existant.
+    Mise en place d'une API publique à destination de nos partenaire pour se connecter à notre plateforme en OAuth2.
+    Mise en place d'une architecture micro services avec bus de communication
+    Intégration d'API pour chaque appli supportées.
+    Automatisation des tests et ajout d'une couverture de tests.
+    Monitoring des KPI avec ELK.
+    Transmission de bonnes pratiques : NodeJS, codestyle, workflow, git.
+    "
+    technologies: NodeJS, Express, MongoDB, ELK, RabbitMQ
 
-studies: 
-    - education:
-      degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: "Describe your study here lorem ipsum dolor sit amet, consectetuer adipiscing
-      elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
-      magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem."
+  - experience:
+    company: Chauffeur Privé
+    time: Jul 2015 - Sep 2015
+    role: NodeJS backend developer
+    details: Refonte de la facturation des chauffeurs.
+    technologies: NodeJS, Express, MongoDB
 
-    - education:
-      degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: "Describe your study here lorem ipsum dolor sit amet, consectetuer adipiscing
-      elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
-      magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem."
+  - experience:
+    company: TF1
+    time: Aug 2014 - Sep 2015
+    role: NodeJS backend developer
+    details: "Réalisation d'un composant transverse de gestion de pression publicitaire lors des vidéos en replay
+    Participation à la refonte complète du site de MYTF1 en NodeJS"
+    technologies: NodeJS, Hapi, PostgresSQL, ELK
 
+  - experience:
+    company: Partouche Images
+    time: Jan 2012 - Jul 2014
+    role: NodeJS backend developer
+    details: "Développement d'un serveur de monitoring en NodeJS.
+    Partie backend en PHP.
+    Extract de statistiques de réportings.
+    Intégrations d'API externes : moyen de paiement, machine à sous.
 
-projects:
-    title: Projects
-    intro: "You can list your side projects or open source libraries in this section. Lorem ipsum dolor
-      sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus."
-    
-    projects:
-      - project:
-        title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-      - project:
-        title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-      - project:
-        title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-      - project:
-        title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-      - project:
-        title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+Développement des interface de jeux en JS,"
+    technologies: NodeJS, Express, MongoDB
 
+studies:
+  - education:
+    degree: "Master 2 : informatique et réseaux"
+    university: ITIN (Now called ITESCIA)
+    time: 2008 - 2011
+    details: "Describe your study here lorem ipsum dolor sit amet, consectetuer adipiscing
+    elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
+    magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
+    pellentesque eu, pretium quis, sem."
+
+  - education:
+    degree: BTS Informatique de gestion options administrateur de réseaux
+    university: Lycée de l'Hautil
+    time: 2006 - 2008
+    details: "Describe your study here lorem ipsum dolor sit amet, consectetuer adipiscing
+    elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
+    magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
+    pellentesque eu, pretium quis, sem."
 
 publications:
-    title: Publications
-    intro: "You can list your publications in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus."
-    
-    publications:
-      - paper:
-        title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-      - paper:
-        title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-      - paper:
-        title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
-
+  title: Articles i likes
+  intro: "You can list your publications in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus."
+  publications:
+    - paper:
+      title: The Art of Computer Programming
+      authors: Donald E. Knuth
+      conference: Addison-Wesley, 1968
+    - paper:
+      title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+      authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+      conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+    - paper:
+      title: A syntax directed compiler for Algol 60
+      authors: Edgar T. Irons
+      conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
-    title: Skills &amp; Proficiency
-    skills:
-        - skill:
-          name: Python & Django
-          level: 98%
-        - skill:
-          name: Javascript & jQuery
-          level: 98%
-        - skill:
-          name: Angular
-          level: 98%
-        - skill:
-          name: HTML5 & CSS
-          level: 95%
-        - skill:
-          name: Ruby on Rails
-          level: 85%
-        - skill:
-          name: Sketch & Photoshop
-          level: 60%
+  title: Skills
+  skills:
+    - skill:
+      name: Javascript
+      level: 90%
+    - skill:
+      name: NodeJS / Koa 2 / Express
+      level: 90%
+    - skill:
+      name: SQL
+      level: 80%
+    - skill:
+      name: React / Redux
+      level: 50%
+    - skill:
+      name: AWS / Kubernetes
+      level: 30%
+    - skill:
+      name: RabbitMQ
+      level: 70%
+    - skill:
+      name: MongoDB
+      level: 60%
 
-
-footer: 
-    text: 'Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a> for developers'
+footer:
+  text: 'Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a> for developers'
