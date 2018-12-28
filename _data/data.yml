@@ -17,17 +17,19 @@ sidebar:
   twitter: '@sasqwach'
   #stack-overflow: 4759067/sachacr
 
+  languages-title: Langues
   languages:
     - language:
       idiom: English
       level: Professionnel
     - language:
       idiom: French
-      level: Natif
+      level: Maternelle
 
+  interests-title: Loisirs
   interests:
     - interest:
-      item: Guitare
+      item: Guitare (3 albums)
       link:
     - interest:
       item: Karate
@@ -44,13 +46,14 @@ career-profile:
     Je peux aussi intervenir occasionellement sur un front-end existant en React/Redux.
 
 experiences:
+  title: Expériences
   - experience:
     company: Frichti
     website: https://frichti.co
     time: Jun 2017 → Aujourd'hui
     role: Senior NodeJS backend developer
     details: |
-      Dévelopeur senior au sein de L’Équipe backend. J’ai pu participer à la refactorisation de la stock Frichti en micro services.
+      Dévelopeur senior au sein de L’Équipe backend. J’ai pu participer à la refactorisation de la stack Frichti en micro services.
       Voici une liste des principaux projets auxquels j’ai pu participer.
         - Design et implémentation de l’algorithme de répartition de la nourriture entre les dépôts. Lead backend sur ce projet d’une équipe de 3 personnes
         - Participation au design et développement du Warehouse Management System maison de Frichti
@@ -65,10 +68,9 @@ experiences:
         - Management de stagiaires
         - Evangélisation autour des tests unitaires et coverage
 
-      Pour réaliser ces projets j’ai eu une utilisation quotidienne des outils suivants NodeJS, Koa2, PostgresSQL, Rabbitmq, Redis, Kubernetes, Stripe API.
       J’ai aussi réalisé quelques petits développement front end (back office) sur un projet React & Redux pour me familiariser avec cette technologie.
 
-    technologies: NodeJS, Koa 2, PostgresSQL, Kubernetes, ELK, RabbitMQ, Redis, React/Redux
+    technologies: NodeJS, Koa2, PostgresSQL, Kubernetes, ELK, RabbitMQ, Redis, React/Redux, Stripe API
 
   - experience:
     company: Sport Heroes Group
@@ -118,6 +120,7 @@ experiences:
 Développement des interface de jeux en JS,"
     technologies: NodeJS, Express, MongoDB
 
+studies-title: études
 studies:
   - education:
     degree: "Master 2 : informatique et réseaux"
@@ -154,7 +157,7 @@ publications:
       link: https://medium.com/javascript-scene/what-every-unit-test-needs-f6cd34d9836d
 
 skills:
-  title: Skills
+  title: Compétences
   skills:
     - skill:
       name: Javascript
