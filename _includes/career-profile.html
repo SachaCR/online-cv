@@ -4,8 +4,8 @@
   <h2 class="section-title"><i class="fa fa-user"></i>{{ site.data.data.career-profile.title }}</h2>
 
     <div class="summary">
-      <p>{{ site.data.data.career-profile.text }}</p>
+      {{ site.data.data.career-profile.text | markdownify }}
     </div><!--//summary-->
-    
+
 </section><!--//section-->
 {% endif %}

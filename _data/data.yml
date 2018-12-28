@@ -18,38 +18,38 @@ sidebar:
   linkedin: SachaCR
   github: SachaCR
   twitter: '@sasqwach'
+  #stack-overflow: 4759067/sachacr
 
   languages:
     - language:
       idiom: English
-      level: Professional
+      level: Professionnel
     - language:
       idiom: French
-      level: Native
+      level: Natif
 
   interests:
     - interest:
-      item: Guitar
+      item: Guitare
       link:
     - interest:
       item: Karate
       link:
     - interest:
-      item: Video Games
+      item: Jeux Vidéo
       link:
 
 career-profile:
   title: Introduction
   text: |
-    Dévelopeur depuis 2011 j'ai pu travailler dans plusieurs société dans des domaines très variés (Télévision, Food-Tech, Jeux de casino, VTC, Sport Connecté)
+    Dévelopeur depuis 2011 j'ai pu travailler dans plusieurs société dans des domaines très variés : Télévision, Food-Tech, Jeux de casino, VTC, Sport Connecté
     Toutes ces expériences m'ont permises de construire une solide expertise en NodeJS et technologies associés.
     Je peux aussi intervenir occasionellement sur un front-end existant en React/Redux.
-
 
 experiences:
   - experience:
     company: Frichti
-    time: Jun 2017
+    time: Jun 2017 → Aujourd'hui
     role: Senior NodeJS backend developer
     details: |
       Dévelopeur senior au sein de L’Équipe backend. J’ai pu participer à la refactorisation de la stock Frichti en micro services.
@@ -77,13 +77,13 @@ experiences:
     time: Sep 2015 - Jun 2017
     role: API Manager, NodeJS Lead Developer
     details: |
-      Refactorisation de l'existant.
-      Mise en place d'une API publique à destination de nos partenaire pour se connecter à notre plateforme en OAuth2.
-      Mise en place d'une architecture micro services avec bus de communication
-      Intégration d'API pour chaque appli supportées.
-      Automatisation des tests et ajout d'une couverture de tests.
-      Monitoring des KPI avec ELK.
-      Transmission de bonnes pratiques en NodeJS, codestyle, workflow et git.
+      - Refactorisation de l'existant.
+      - Design et developement API publique à destination de nos partenaire pour se connecter à notre plateforme en OAuth2.
+      - Design et developement d'une architecture micro services avec bus de communication
+      - Intégration d'API pour chaque appli supportées.
+      - Automatisation des tests et ajout d'une couverture de tests.
+      - Monitoring des KPI avec ELK.
+      - Transmission de bonnes pratiques en NodeJS, codestyle, workflow et git.
 
     technologies: NodeJS, Express, MongoDB, ELK, RabbitMQ
 
@@ -98,8 +98,10 @@ experiences:
     company: TF1
     time: Aug 2014 - Sep 2015
     role: NodeJS backend developer
-    details: "Réalisation d'un composant transverse de gestion de pression publicitaire lors des vidéos en replay
-    Participation à la refonte complète du site de MYTF1 en NodeJS"
+    details: |
+      Réalisation d'un composant transverse de gestion de pression publicitaire lors des vidéos en replay
+      Participation à la refonte complète du site de MYTF1 en NodeJS
+
     technologies: NodeJS, Hapi, PostgresSQL, ELK
 
   - experience:
@@ -119,22 +121,24 @@ studies:
     degree: "Master 2 : informatique et réseaux"
     university: ITIN (Renommé ITESCIA depuis)
     time: 2008 - 2011
-    details: "Describe your study here lorem ipsum dolor sit amet, consectetuer adipiscing
-    elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
-    magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
-    pellentesque eu, pretium quis, sem."
+    details: |
+      Describe your study here lorem ipsum dolor sit amet, consectetuer adipiscing
+      elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
+      magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem.
 
   - education:
     degree: BTS Informatique de gestion options administrateur de réseaux
     university: Lycée de l'Hautil
     time: 2006 - 2008
-    details: "Describe your study here lorem ipsum dolor sit amet, consectetuer adipiscing
-    elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
-    magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
-    pellentesque eu, pretium quis, sem."
+    details: |
+      Describe your study here lorem ipsum dolor sit amet, consectetuer adipiscing
+      elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
+      magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem.
 
 publications:
-  title: Articles i likes
+  title: Mes Articles prefere
   intro: "You can list your publications in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus."
   publications:
     - paper:
