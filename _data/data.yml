@@ -1,6 +1,3 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
 
 sidebar:
   # Site Settings
@@ -49,6 +46,7 @@ career-profile:
 experiences:
   - experience:
     company: Frichti
+    website: https://frichti.co
     time: Jun 2017 → Aujourd'hui
     role: Senior NodeJS backend developer
     details: |
@@ -74,6 +72,7 @@ experiences:
 
   - experience:
     company: Sport Heroes Group
+    website: https://www.sportheroes.group/en
     time: Sep 2015 - Jun 2017
     role: API Manager, NodeJS Lead Developer
     details: |
@@ -89,6 +88,7 @@ experiences:
 
   - experience:
     company: Chauffeur Privé
+    website: https://www.chauffeur-prive.com
     time: Jul 2015 - Sep 2015
     role: NodeJS backend developer
     details: Refonte de la facturation des chauffeurs.
@@ -96,6 +96,7 @@ experiences:
 
   - experience:
     company: TF1
+    website: https://www.tf1.fr/
     time: Aug 2014 - Sep 2015
     role: NodeJS backend developer
     details: |
@@ -106,6 +107,7 @@ experiences:
 
   - experience:
     company: Partouche Images
+    website: http://www.cashtv.com/
     time: Jan 2012 - Jul 2014
     role: NodeJS backend developer
     details: "Développement d'un serveur de monitoring en NodeJS.
