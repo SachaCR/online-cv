@@ -102,8 +102,8 @@ experiences:
     time: Aug 2014 - Sep 2015
     role: NodeJS backend developer
     details: |
-      Réalisation d'un composant transverse de gestion de pression publicitaire lors des vidéos en replay
-      Participation à la refonte complète du site de MYTF1 en NodeJS
+      - Réalisation d'un composant transverse de gestion de pression publicitaire lors des vidéos en replay
+      - Participation à la refonte complète du site de MYTF1 en NodeJS
 
     technologies: NodeJS, Hapi, PostgresSQL, ELK
 
@@ -112,12 +112,12 @@ experiences:
     website: http://www.cashtv.com/
     time: Jan 2012 - Jul 2014
     role: NodeJS backend developer
-    details: "Développement d'un serveur de monitoring en NodeJS.
-    Partie backend en PHP.
-    Extract de statistiques de réportings.
-    Intégrations d'API externes : moyen de paiement, machine à sous.
-
-Développement des interface de jeux en JS,"
+    details: |
+      - Développement d'un serveur de monitoring en NodeJS.
+      - Partie backend en PHP.
+      - Extract de statistiques de réportings.
+      - Intégrations d'API externes, moyen de paiement, machine à sous.
+      - Développement des interface de jeux en JS,"
     technologies: NodeJS, Express, MongoDB
 
 studies-title: études
