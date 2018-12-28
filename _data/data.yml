@@ -5,7 +5,6 @@
 sidebar:
   # Site Settings
   title: Senior NodeJS Backend Developer
-  url: 'http://webjeda.com'
   about: false # set to False or comment line if you want to remove the "How to use?" in the sidebar
 
   # Profile information
@@ -14,9 +13,8 @@ sidebar:
   pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
-  email: sachacr@protonmail.com
+  email: sachacr@gmail.com
   phone: 06 13 19 14 60
-  website: SachaCR.com #do not add http://
   linkedin: SachaCR
   github: SachaCR
   twitter: '@sasqwach'
@@ -52,25 +50,41 @@ experiences:
     company: Frichti
     time: Jun 2017
     role: Senior NodeJS backend developer
-    details: "Conception, Dévelopement, Déploiement et maintenance d'une dizaine de micro services. (Base produits, Abonnement, Warehouse Management, Food Dispatcher)
-    Participation au design générale de la plateforme tech Frichti (Schéma de BDD, Design d'API)
-    Creation d'un template de micro service pour accélérer le bootsrap des micro services Frichti
-    Encadrement de plusieurs stagiaire.
-    Organisation d’un meetup NodeJS dans les locaux de Frichti."
+    details:
+      Dévelopeur senior au sein de L’Équipe backend. J’ai pu participer à la refactorisation de la stock Frichti en micro services.
+      Voici une liste des principaux projets auxquels j’ai pu participer.
+        - Design et implémentation de l’algorithme de répartition de la nourriture entre les dépôts. Lead backend sur ce projet d’une équipe de 3 personnes
+        - Participation au design et développement du Warehouse Management System maison de Frichti
+        - Développement d’un système de limitation automatique de prise de commandes
+        - Design et implémentation du référentiel de produits Frichti
+        - Création d’un template de micro service pour accélérer le bootstrap des nouveaux micro service frichti
+        - Création d’un outils de duplication de commandes
+        - Créations d’un outils de paramètrage des formules
+        - Design et implémentation de l’abonnement Frichti+
+        - Publication sur npm d’utilitaires open source
+        - Organisation d’un Meetup NodeJS Paris
+        - Management de stagiaires
+        - Evangélisation autour des tests unitaires et coverage
+
+      Pour réaliser ces projets j’ai eu une utilisation quotidienne des outils suivants NodeJS, Koa2, PostgresSQL, Rabbitmq, Redis, Stripe API.
+
+      J’ai aussi réalisé quelques petits développement front end (back office) sur un projet React & Redux pour me familiariser avec cette technologie.
+
     technologies: NodeJS, Koa 2, PostgresSQL, Kubernetes, ELK, RabbitMQ, Redis, React/Redux
 
   - experience:
     company: Sport Heroes Group
     time: Sep 2015 - Jun 2017
     role: API Manager, NodeJS Lead Developer
-    details: "Refactorisation de l'existant.
-    Mise en place d'une API publique à destination de nos partenaire pour se connecter à notre plateforme en OAuth2.
-    Mise en place d'une architecture micro services avec bus de communication
-    Intégration d'API pour chaque appli supportées.
-    Automatisation des tests et ajout d'une couverture de tests.
-    Monitoring des KPI avec ELK.
-    Transmission de bonnes pratiques : NodeJS, codestyle, workflow, git.
-    "
+    details:
+      Refactorisation de l'existant.
+      Mise en place d'une API publique à destination de nos partenaire pour se connecter à notre plateforme en OAuth2.
+      Mise en place d'une architecture micro services avec bus de communication
+      Intégration d'API pour chaque appli supportées.
+      Automatisation des tests et ajout d'une couverture de tests.
+      Monitoring des KPI avec ELK.
+      Transmission de bonnes pratiques en NodeJS, codestyle, workflow et git.
+
     technologies: NodeJS, Express, MongoDB, ELK, RabbitMQ
 
   - experience:
@@ -103,7 +117,7 @@ Développement des interface de jeux en JS,"
 studies:
   - education:
     degree: "Master 2 : informatique et réseaux"
-    university: ITIN (Now called ITESCIA)
+    university: ITIN (Renommé ITESCIA depuis)
     time: 2008 - 2011
     details: "Describe your study here lorem ipsum dolor sit amet, consectetuer adipiscing
     elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
@@ -150,16 +164,16 @@ skills:
       level: 80%
     - skill:
       name: React / Redux
-      level: 50%
+      level: 40%
     - skill:
       name: AWS / Kubernetes
       level: 30%
     - skill:
       name: RabbitMQ
-      level: 70%
+      level: 60%
     - skill:
       name: MongoDB
-      level: 60%
+      level: 50%
 
 footer:
   text: 'Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a> for developers'
