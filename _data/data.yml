@@ -45,8 +45,8 @@ career-profile:
     Toutes ces expériences m'ont permises de construire une solide expertise en NodeJS et technologies associés.
     Je peux aussi intervenir occasionellement sur un front-end existant en React/Redux.
 
+experiences-title: Expériences
 experiences:
-  title: Expériences
   - experience:
     company: Frichti
     website: https://frichti.co
