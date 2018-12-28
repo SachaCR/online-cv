@@ -10,13 +10,13 @@ sidebar:
 
   # Profile information
   name: Sacha Clerc-Renaud
-  tagline: Full Stack Developer
+  tagline: Senior NodeJS Backend Developer
   pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
   email: sachacr@protonmail.com
   phone: 06 13 19 14 60
-  website: blog.webjeda.com #do not add http://
+  website: SachaCR.com #do not add http://
   linkedin: SachaCR
   github: SachaCR
   twitter: '@sasqwach'
@@ -41,32 +41,22 @@ sidebar:
       link:
 
 career-profile:
-  title: Career Profile
-  text: 'Developer since 2011. I have worked for some company like : Frichti, TF1, Chauffeur Privé, Sport Heroes Group.'
+  title: Introduction
+  text: "Dévelopeur depuis 2011 j'ai pu travailler dans plusieurs société dans des domaines très variés (Télévision, Food-Tech, Jeux de casino, VTC, Sport Connecté)
+  Toutes ces expériences m'ont permises de construire une solide expertise en NodeJS et technologies associés.
+  Je peux aussi intervenir occasionellement sur un front-end existant en React/Redux.
+  "
 
 experiences:
   - experience:
     company: Frichti
     time: Jun 2017
     role: Senior NodeJS backend developer
-    details: "WMS
-    Auto-cut
-    Tracking V1 & V2
-    Minimum de commande
-    Base produits
-    Duplications commande
-    Racks Preptask
-    Outils Formules
-    Subscriptions / coupons / stripe
-    Free-Meals
-    Package Open source, koajv, koa-http-log, koa-router-map, koa-route-version
-    Management Stagiaire
-    Montée étages
-    Migration foodids
-    Recipe
-    Frigocool
-    Organisation d’un meetup NodeJS
-    Dispatch automatique foodops"
+    details: "Conception, Dévelopement, Déploiement et maintenance d'une dizaine de micro services. (Base produits, Abonnement, Warehouse Management, Food Dispatcher)
+    Participation au design générale de la plateforme tech Frichti (Schéma de BDD, Design d'API)
+    Creation d'un template de micro service pour accélérer le bootsrap des micro services Frichti
+    Encadrement de plusieurs stagiaire.
+    Organisation d’un meetup NodeJS dans les locaux de Frichti."
     technologies: NodeJS, Koa 2, PostgresSQL, Kubernetes, ELK, RabbitMQ, Redis, React/Redux
 
   - experience:
