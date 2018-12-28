@@ -140,21 +140,18 @@ studies:
       pellentesque eu, pretium quis, sem.
 
 publications:
-  title: Mes Articles prefere
-  intro: "You can list your publications in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus."
+  title: Mes articles et vidéos préférés
+  #intro: "You can list your publications in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus."
   publications:
     - paper:
-      title: The Art of Computer Programming
-      authors: Donald E. Knuth
-      conference: Addison-Wesley, 1968
+      title: Composition over Inheritance
+      authors: Mattias Petter Johansson
+      link: https://medium.com/humans-create-software/composition-over-inheritance-cb6f88070205
+      #conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
     - paper:
-      title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-      authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-      conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-    - paper:
-      title: A syntax directed compiler for Algol 60
-      authors: Edgar T. Irons
-      conference: "Comm. ACM 4 (1961), 51–55"
+      title: 5 Questions Every Unit Test Must Answer
+      authors: Eric Elliott
+      link: https://medium.com/javascript-scene/what-every-unit-test-needs-f6cd34d9836d
 
 skills:
   title: Skills
