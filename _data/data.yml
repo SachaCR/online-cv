@@ -40,7 +40,7 @@ sidebar:
 
 career-profile:
   title: Introduction
-  text:
+  text: |
     Dévelopeur depuis 2011 j'ai pu travailler dans plusieurs société dans des domaines très variés (Télévision, Food-Tech, Jeux de casino, VTC, Sport Connecté)
     Toutes ces expériences m'ont permises de construire une solide expertise en NodeJS et technologies associés.
     Je peux aussi intervenir occasionellement sur un front-end existant en React/Redux.
@@ -51,7 +51,7 @@ experiences:
     company: Frichti
     time: Jun 2017
     role: Senior NodeJS backend developer
-    details:
+    details: |
       Dévelopeur senior au sein de L’Équipe backend. J’ai pu participer à la refactorisation de la stock Frichti en micro services.
       Voici une liste des principaux projets auxquels j’ai pu participer.
         - Design et implémentation de l’algorithme de répartition de la nourriture entre les dépôts. Lead backend sur ce projet d’une équipe de 3 personnes
@@ -76,7 +76,7 @@ experiences:
     company: Sport Heroes Group
     time: Sep 2015 - Jun 2017
     role: API Manager, NodeJS Lead Developer
-    details:
+    details: |
       Refactorisation de l'existant.
       Mise en place d'une API publique à destination de nos partenaire pour se connecter à notre plateforme en OAuth2.
       Mise en place d'une architecture micro services avec bus de communication
