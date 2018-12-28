@@ -40,10 +40,11 @@ sidebar:
 
 career-profile:
   title: Introduction
-  text: "Dévelopeur depuis 2011 j'ai pu travailler dans plusieurs société dans des domaines très variés (Télévision, Food-Tech, Jeux de casino, VTC, Sport Connecté)
-  Toutes ces expériences m'ont permises de construire une solide expertise en NodeJS et technologies associés.
-  Je peux aussi intervenir occasionellement sur un front-end existant en React/Redux.
-  "
+  text:
+    Dévelopeur depuis 2011 j'ai pu travailler dans plusieurs société dans des domaines très variés (Télévision, Food-Tech, Jeux de casino, VTC, Sport Connecté)
+    Toutes ces expériences m'ont permises de construire une solide expertise en NodeJS et technologies associés.
+    Je peux aussi intervenir occasionellement sur un front-end existant en React/Redux.
+
 
 experiences:
   - experience:
@@ -66,8 +67,7 @@ experiences:
         - Management de stagiaires
         - Evangélisation autour des tests unitaires et coverage
 
-      Pour réaliser ces projets j’ai eu une utilisation quotidienne des outils suivants NodeJS, Koa2, PostgresSQL, Rabbitmq, Redis, Stripe API.
-
+      Pour réaliser ces projets j’ai eu une utilisation quotidienne des outils suivants NodeJS, Koa2, PostgresSQL, Rabbitmq, Redis, Kubernetes, Stripe API.
       J’ai aussi réalisé quelques petits développement front end (back office) sur un projet React & Redux pour me familiariser avec cette technologie.
 
     technologies: NodeJS, Koa 2, PostgresSQL, Kubernetes, ELK, RabbitMQ, Redis, React/Redux
