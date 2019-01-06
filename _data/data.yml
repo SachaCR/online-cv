@@ -24,7 +24,7 @@ sidebar:
       level: Professionnel
     - language:
       idiom: French
-      level: Maternelle
+      level: Natif
 
   interests-title: Loisirs
   interests:
@@ -41,9 +41,12 @@ sidebar:
 career-profile:
   title: Introduction
   text: |
-    Dévelopeur depuis 2011 j'ai pu travailler dans plusieurs société dans des domaines très variés : Télévision, Food-Tech, Jeux de casino, VTC, Sport Connecté
-    Toutes ces expériences m'ont permises de construire une solide expertise en NodeJS et technologies associés.
-    Je peux aussi intervenir occasionellement sur un front-end existant en React/Redux.
+    Dévelopeur depuis 2011 j'ai pu travailler dans plusieurs société dans des domaines très variés : Télévision, Food-Tech, Jeux de casino, VTC, Sport Connecté.
+    J'ai pris beaucoup de plaisir à découvrir ces métiers très différents.
+    Chacuns avec leurs règles et leurs contraintes. C'est ce qui selon moi rend mon métier si intérressant. Selon le contexte il faut apprendre à s'adapter et à trouver la meilleurs solution technique pour répondre au besoin d'un business spécifique
+
+    Toutes ces expériences m'ont permises de construire une solide expertise backend en NodeJS et technologies associés.
+    Il m'arrive aussi d'intervenir occasionellement sur un front-end existant en React/Redux.
 
 experiences-title: Expériences
 experiences:
@@ -59,7 +62,7 @@ experiences:
         - Participation au design et développement du Warehouse Management System maison de Frichti
         - Développement d’un système de limitation automatique de prise de commandes
         - Design et implémentation du référentiel de produits Frichti
-        - Création d’un template de micro service pour accélérer le bootstrap des nouveaux micro service frichti
+        - Création d’un template de micro service pour accélérer le bootstrap des nouveaux micro service Frichti
         - Création d’un outils de duplication de commandes
         - Créations d’un outils de paramètrage des formules
         - Design et implémentation de l’abonnement Frichti+
