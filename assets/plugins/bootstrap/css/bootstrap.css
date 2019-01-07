@@ -24,9 +24,8 @@ main,
 menu,
 nav,
 section,
-summary p{
+summary {
   display: block;
-  text-align: justify;
 }
 audio,
 canvas,
