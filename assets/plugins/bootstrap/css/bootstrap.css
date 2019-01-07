@@ -24,7 +24,7 @@ main,
 menu,
 nav,
 section,
-summary {
+summary p{
   display: block;
   text-align: justify;
 }
