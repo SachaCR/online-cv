@@ -158,6 +158,18 @@ publications:
       title: 5 Questions Every Unit Test Must Answer
       authors: Eric Elliott
       link: https://medium.com/javascript-scene/what-every-unit-test-needs-f6cd34d9836d
+    - paper:
+      title: Mocking is a Code Smell
+      authors: Eric Elliott
+      link: https://medium.com/javascript-scene/mocking-is-a-code-smell-944a70c90a6a
+    - paper:
+      title: The Two Pillars of JavaScript - Part 1
+      authors: Eric Elliott
+      link: https://medium.com/javascript-scene/the-two-pillars-of-javascript-ee6f3281e7f3
+    - paper:
+      title: 10 Interview Questions Every JavaScript Developer Should Know
+      authors: Eric Elliott
+      link: https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95
 
 skills:
   title: Compétences
